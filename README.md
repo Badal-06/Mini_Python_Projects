@@ -8,8 +8,8 @@ A curated collection of beginner-friendly Python scripts that demonstrate automa
 
 | Project Name               | Description / Function                                                                 | View Link                                                                 |
 |---------------------------|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| **Automatic Message Sender** | Send unlimited messages through any messaging app automatically using the `pyautogui` and `time` library.           | [🔗 View Code](https://github.com/Badal-06/Mini_Python_Projects/blob/main/Automatic_Message_Sender.py) |
-| **Phone Number Locator**     | Locate a phone number's country and  carrier using the `phonenumbers` library .       | [🔗 View Code](https://github.com/Badal-06/Mini_Python_Projects/blob/main/Phone_Number_Locator.py)      |
+| **Automatic Message Sender** | Send unlimited messages through any messaging app automatically using the `pyautogui` and `time` library.           | [🔗 View Code](https://github.com/Badal-06/Mini_Python_Projects/blob/main/PROJECT_1/Automatic%20Message%20Sender.py) |
+| **Phone Number Locator**     | Locate a phone number's country and  carrier using the `phonenumbers` library .       | [🔗 View Code](https://github.com/Badal-06/Mini_Python_Projects/blob/main/PROJECT_2/Phone_Number_Locator.py)       |
 
 ---
 
