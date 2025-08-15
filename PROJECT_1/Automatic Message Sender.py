@@ -1,9 +1,15 @@
 import pyautogui
 import time
-message=5
-while message>0:
+
+# Enter how many time you want to send message
+message_time=int(input("Enter time , You want to send message:  "))
+
+# Enter Your Message
+Message=input("Enter Your Message :")
+
+while message_time>0:
     time.sleep(2)
-    pyautogui.typewrite("hello")
+    pyautogui.typewrite(Message)
     time.sleep(2)
     pyautogui.press('enter')
-    message-=1
+    message_time-=1
