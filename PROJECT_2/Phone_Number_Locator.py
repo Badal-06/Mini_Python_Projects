@@ -1,10 +1,14 @@
 import phonenumbers
-from phonenumbers import geocoder , carrier 
+from phonenumbers import geocoder, carrier
 
-number = str(input("enter your phone number with country code: "))
+number = input("Enter your phone number with country code: ")
 
-ch_number = phonenumbers.parse(number,"CH")
-print("location: " ,geocoder.description_for_number(ch_number,"en"))
+parsed_number = phonenumbers.parse(number)  # no region override needed
 
-service_number = phonenumbers.parse(number,"RO")
-print("carrier: ", carrier.name_for_number(service_number,"en"))
+# Get location
+location = geocoder.description_for_number(parsed_number, "en")
+print("Location:", location)
+
+# Get carrier
+service_provider = carrier.name_for_number(parsed_number, "en")
+print("Carrier:", service_provider)
